@@ -9,7 +9,7 @@ body {
     background: rgb(242, 169, 91);
     background: linear-gradient(45deg, rgba(242, 169, 91, 1) 27%, rgba(255, 100, 20, 1) 100%);
     background-repeat: no-repeat !important;
-    /* height: 100vh; */
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;

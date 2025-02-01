@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+   
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Profile card</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="card-image" data-tesid="ProfilePicture">
+          <img src="./asset/zedX.jpg" alt="profile Picture" />
+        </div>
+        <div class="card-content" data-tesid="details">
+          <h1 class="full-Name" data-tesid="fullName">Samuel Ogbaje</h1>
+          <h3 class="card-subtitle" data-tesid="jobTitle">Frontend Developer</h3>
+          <p class="card-text" data-tesid="shaortBio">
+            I am a front-end developer passionate about crafting engaging digital experiences through HTML, CSS, JavaScript, and React.js. With a strong focus on building responsive and accessible web applications, I continuously enhance my technical expertise through hands-on projects and industry best practices. 
+          </p>
+          <div class="card-actions" data-tesid="cardActions">
+            <span class="email" data-tesid="emailAddress">samuelogbaje@gmail.com</span>
+          </div>
+          <div class="card-social" data-tesid="socialLinks">
+            <a href="https://www.twitter.com/Joker4mas" target="_blank" class="social-icons"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/samuel-ogbaje-71828010b/" target="_blank" class="social-icons"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/Joker4mas" target="_blank" class="social-icons"><i class="fab fa-github"></i></a>
+          </div>
+          <div class="dateLocation">
+            <span class="date-box" data-testid="currentTimeUTC"></span>
+            <span class="location" data-testid="currentLocation"></span>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    <script src="main.js">
+     
+    </script>
+  </body>
+</html>
